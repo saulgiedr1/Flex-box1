@@ -1,0 +1,78 @@
+
+.antraste {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+.nuorodos-gaubimas {
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    border: 2px solid black;
+    margin-top: 1px;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: black;
+   
+}
+.nuorodos-mygtukai {
+    height: 50px;    
+    background-color:rgb(196, 193, 189);
+    border: 2px solid black;
+    flex-grow: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+    
+
+} .pats-mygtukas {
+    display: block;
+    height: 50px;
+    padding: 0.5em; 
+    margin-left: 50px; 
+    text-decoration: none;
+    color: black;
+    font-size: x-large;       
+
+}
+.teksto-gaubimas {
+    display: flex;  
+    justify-content: space-between;  
+    height: 400px;   
+    margin-top: 1px;
+}
+.teksto-blokas1 {
+    height: 400px;
+    width: 70%;    
+    background-color: rgb(196, 193, 189);
+}
+.teksto-blokas2 {
+    height: 400px;
+    width: 30%;     
+    background-color: rgb(248, 233, 214);
+}
+.vidines-antrastes {
+    padding-left: 40px;
+}
+.tekstas {
+    font-size: larger;
+    padding: 20px;
+}
+.pabaiga {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(196, 193, 189);
+    border-top: 10px solid black;      
+
+}
+.pabaiga-text {
+    padding: 20px;
+    font-size: larger;
+
+}
